@@ -16,6 +16,7 @@ var e5e = wY((h5e, Cw) => {
           }
       }
     }
+    let a = 1;
     return Object.freeze(
       Object.defineProperty(t, Symbol.toStringTag, { value: "Module" })
     );
