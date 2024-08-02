@@ -52478,13 +52478,13 @@ html body {
       return x.createElement(Zn, ot({}, e, { ref: n, icon: wme }));
     },
     Eme = x.forwardRef(xme);
-  const Sme = "images/image_1-Drnk2CxN.jpg",
-    bme = "images/image_2-8mv8n9yr.jpg",
-    Bme = "images/image_3-JF_M3pbb.jpg",
-    Fme = "images/image1-cP2anZ8E.png",
-    _me = "images/image_2-D_BXPs6M.png",
-    Mme = "images/image_3-Bq5znvAw.png",
-    Dme = "images/broken_image-Cfnl7641.png",
+  const Sme = "assets/image_1-Drnk2CxN.jpg",
+    bme = "assets/image_2-8mv8n9yr.jpg",
+    Bme = "assets/image_3-JF_M3pbb.jpg",
+    Fme = "assets/image1-cP2anZ8E.png",
+    _me = "assets/image_2-D_BXPs6M.png",
+    Mme = "assets/image_3-Bq5znvAw.png",
+    Dme = "assets/broken_image-Cfnl7641.png",
     DL = [_me, Sme, Bme, Fme, bme, Mme],
     Tme = Dme,
     Ime = () =>
