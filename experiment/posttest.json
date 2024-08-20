@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "After identifying a file signature in a traffic dump, what is the next step in reconstructing the file?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Ignore the file and look for another signature",
+        "b": "Export the raw data bytes associated with the signature",
+        "c": "Rename the file with the correct extension",
+        "d": "Run a virus scan on the file"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Ignoring the file defeats the purpose of reconstruction.",
+        "b": "Correct. After identifying the file signature, you should export the raw data bytes. ",
+        "c": "Renaming is not sufficient for reconstructing the file.",
+        "d": "Running a virus scan is good practice but not the next step in reconstruction."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "When fixing a corrupted image header, why is it important to use the correct file signature?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The correct signature ensures that the file opens with the right application",
+        "b": "It adds extra layers of security to the file",
+        "c": "It increases the file size",
+        "d": "It makes the file easier to share online"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Using the correct file signature ensures that the operating system recognizes the file type and opens it with the appropriate application.",
+        "b": "File signatures do not enhance security.",
+        "c": "File signatures do not alter the file size.",
+        "d": "File signatures are unrelated to sharing capabilities."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In the context of file carving from an image file, what does the 'offset' refer to?",
+      "answers": {
+        "a": "The size of the embedded file",
+        "b": "The location of the embedded file within the image",
+        "c": "The file extension of the embedded file",
+        "d": "The type of compression used on the embedded file"
+      },
+      "explanations": {
+        "a": "Offset refers to the position within the file, not its size.",
+        "b": "Correct. The offset is the position within the image file where the embedded file starts. ",
+        "c": "Offset does not relate to the file extension.",
+        "d": "Offset is not related to compression."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }

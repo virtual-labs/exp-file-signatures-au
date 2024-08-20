@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a file signature?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To provide a unique identifier for a file type",
+        "b": "To encrypt the contents of a file",
+        "c": "To increase the file size",
+        "d": "To compress the file"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "File signatures are sequences of bytes that uniquely identify a file type. ",
+        "b": "File signatures do not encrypt files; they only identify file types.",
+        "c": "File signatures do not alter the size of a file.",
+        "d": "File signatures are unrelated to compression."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following file types is commonly identified by its file signature?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": ".txt",
+        "b": ".jpg",
+        "c": ".mp3",
+        "d": ".exe"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Text files do not have a specific file signature.",
+        "b": "JPG files are identified by their distinct file signature. ",
+        "c": "MP3 files have a different signature but are not the most common example.",
+        "d": "Executable files also have a signature, but JPG is more commonly discussed in introductory contexts."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the context of file carving, what is the first step you should take when attempting to extract a file?",
+      "answers": {
+        "a": "Open the file in a text editor",
+        "b": "Identify the file signature",
+        "c": "Compress the file",
+        "d": "Run an antivirus scan"
+      },
+      "explanations": {
+        "a": "Opening the file in a text editor is not the first step for carving.",
+        "b": "Identifying the file signature is crucial to begin file carving. ",
+        "c": "Compression is not part of the initial carving process.",
+        "d": "While important, an antivirus scan is not the first step in file carving."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
