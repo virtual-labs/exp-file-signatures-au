@@ -51,6 +51,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
+    },
+    {
+      "question": "Which part of a file typically contains the file signature?",
+      "answers": {
+        "a": "Footer",
+        "b": "Middle",
+        "c": "Header",
+        "d": "File name"
+      },
+      "explanations": {
+        "a": "Footers may contain other information, but file signatures are generally at the beginning.",
+        "b": "The middle of a file usually contains data, not identification info.",
+        "c": "Correct. File signatures are typically located in the header section of a file.",
+        "d": "File names can be misleading and are not reliable for type identification."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What makes file signatures a reliable method for identifying file types?",
+      "answers": {
+        "a": "They are customizable and change with user preference",
+        "b": "They are embedded in every file and follow standard patterns",
+        "c": "They depend on file extensions",
+        "d": "They are encrypted for security"
+      },
+      "explanations": {
+        "a": "Signatures are not meant to be changed by users.",
+        "b": "Correct. File signatures follow a standard format that helps reliably identify file types.",
+        "c": "File extensions can be misleading and are not part of the signature.",
+        "d": "Signatures are not encrypted; they are meant to be identifiable."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is an example of a file signature for a PNG file?",
+      "answers": {
+        "a": "FF D8 FF E0",
+        "b": "50 4B 03 04",
+        "c": "89 50 4E 47 0D 0A 1A 0A",
+        "d": "25 50 44 46"
+      },
+      "explanations": {
+        "a": "This is the signature for JPEG files.",
+        "b": "This is the signature for ZIP files.",
+        "c": "Correct. This is the standard file signature for PNG files.",
+        "d": "This is the signature for PDF files."
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
     }
   ]
 }

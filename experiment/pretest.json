@@ -10,7 +10,7 @@
         "d": "To compress the file"
       },
       "explanations": {
-        "a": "File signatures are sequences of bytes that uniquely identify a file type. ",
+        "a": "File signatures are sequences of bytes that uniquely identify a file type.",
         "b": "File signatures do not encrypt files; they only identify file types.",
         "c": "File signatures do not alter the size of a file.",
         "d": "File signatures are unrelated to compression."
@@ -28,7 +28,7 @@
       },
       "explanations": {
         "a": "Text files do not have a specific file signature.",
-        "b": "JPG files are identified by their distinct file signature. ",
+        "b": "JPG files are identified by their distinct file signature.",
         "c": "MP3 files have a different signature but are not the most common example.",
         "d": "Executable files also have a signature, but JPG is more commonly discussed in introductory contexts."
       },
@@ -45,11 +45,62 @@
       },
       "explanations": {
         "a": "Opening the file in a text editor is not the first step for carving.",
-        "b": "Identifying the file signature is crucial to begin file carving. ",
+        "b": "Identifying the file signature is crucial to begin file carving.",
         "c": "Compression is not part of the initial carving process.",
         "d": "While important, an antivirus scan is not the first step in file carving."
       },
       "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is another common name for a file signature?",
+      "answers": {
+        "a": "File footer",
+        "b": "File extension",
+        "c": "Magic number",
+        "d": "File path"
+      },
+      "explanations": {
+        "a": "The footer is at the end of a file, not the beginning.",
+        "b": "The file extension is not the same as the signature.",
+        "c": "Correct. File signatures are often referred to as magic numbers.",
+        "d": "The file path indicates location, not file type."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Where is the file signature usually found within a file?",
+      "answers": {
+        "a": "At the end of the file",
+        "b": "In the middle of the file",
+        "c": "At the beginning of the file",
+        "d": "Randomly located in the file"
+      },
+      "explanations": {
+        "a": "File signatures are not stored at the end of the file.",
+        "b": "They are not found in the middle of the file.",
+        "c": "Correct. File signatures are located at the beginning of the file.",
+        "d": "They follow a specific pattern, not random placement."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why might file signatures be more reliable than file extensions when identifying file types?",
+      "answers": {
+        "a": "They are visible in the filename",
+        "b": "They can be used to compress files",
+        "c": "They are embedded in the file’s content",
+        "d": "They are longer than extensions"
+      },
+      "explanations": {
+        "a": "File signatures are not visible in filenames.",
+        "b": "They are not used for compression.",
+        "c": "Correct. File signatures are embedded in the file’s content and cannot be changed as easily as extensions.",
+        "d": "Length does not determine reliability."
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
