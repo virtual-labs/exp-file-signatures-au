@@ -1,0 +1,2 @@
+<h2>Aim of the Experiment</h2>
+<p>The aim of this experiment is to explore the concept of file signatures and demonstrate their use in identifying and extracting files and embedded data from various storage sources such as disk images and network traffic dumps.</p>
