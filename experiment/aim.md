@@ -1,3 +1,2 @@
-<h2> Aim of the experiment</h2>
-
-<p>The goal of this experiment is to introduce students to the file signatures concept and use them to carve files and embedded files from various storage mediums (Image and traffic dumps).</p>
+<h2>Aim of the Experiment</h2>
+<p>The aim of this experiment is to explore the concept of file signatures and demonstrate their use in identifying and extracting files and embedded data from various storage sources such as disk images and network traffic dumps.</p>
