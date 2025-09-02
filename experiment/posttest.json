@@ -179,6 +179,7 @@
         "c": "Because footers store filenames",
         "d": "Because footers always contain the compression algorithm"
       },
+      
       "explanations": {
         "a": "Headers are not always sufficient for complete recovery.",
         "b": "Correct. Some file types use both header and footer markers to ensure data integrity.",
