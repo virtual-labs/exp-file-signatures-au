@@ -4,7 +4,9 @@ A file signature, also known as a magic number, is a unique sequence of bytes at
 
 Below, you can see an image with a red box highlighting three options in the header: Header Corruption, File Carving, and File Reconstructing. To proceed to the Header Corruption simulation, please click on the "Header Corruption" option.
 
-#### Header Corruption
+#### **Header Corruption**
+
+
 
 Header corruption changes the file signature, which is a unique sequence of bytes identifying a file's format. This alteration can make it impossible for software to correctly recognize or open the file.
 
@@ -34,7 +36,8 @@ Header corruption changes the file signature, which is a unique sequence of byte
 
 ![File Signatures](./images/image7.png)
 
-#### File Carving
+#### **File Carving**
+
 
 File carving is a technique used to recover files from disk images by identifying and extracting file structures. To hide a ZIP file inside an image, the ZIP file's data is embedded within the image file's structure, often in the least significant bits of pixel data or as additional bytes appended to the image file. This method makes the ZIP file less noticeable and harder to detect by casual inspection. When someone extracts the hidden data, they can reveal the embedded ZIP file.
 
@@ -83,7 +86,8 @@ The `dd` command is used for low-level copying and conversion of files. Here's a
 
 ![File Signatures](./images/image17.png)
 
-#### File Reconstruction
+#### **File Reconstruction**
+
 
 File reconstruction in Wireshark involves analyzing network traffic to reassemble files from captured packets. Wireshark captures and displays packet data, which can include file fragments. By using Wireshark's file reconstruction tools, you can identify and extract these fragments, reconstructing the original file by piecing together the captured data. This process helps in recovering files from network traffic for analysis or forensic purposes.
 
