@@ -11,7 +11,7 @@
       },
       "explanations": {
         "a": "Ignoring the file defeats the purpose of reconstruction.",
-        "b": "Correct. After identifying the file signature, you should export the raw data bytes. ",
+        "b": "Correct. After identifying the file signature, you should export the raw data bytes.",
         "c": "Renaming is not sufficient for reconstructing the file.",
         "d": "Running a virus scan is good practice but not the next step in reconstruction."
       },
@@ -45,7 +45,7 @@
       },
       "explanations": {
         "a": "Offset refers to the position within the file, not its size.",
-        "b": "Correct. The offset is the position within the image file where the embedded file starts. ",
+        "b": "Correct. The offset is the position within the image file where the embedded file starts.",
         "c": "Offset does not relate to the file extension.",
         "d": "Offset is not related to compression."
       },
@@ -101,6 +101,92 @@
         "d": "This is the signature for PDF files."
       },
       "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Why is it important to know multiple file signatures for the same file format, such as JPEG and JPEG 2000?",
+      "answers": {
+        "a": "Different versions of file formats use different signatures",
+        "b": "It helps rename files correctly",
+        "c": "It improves compression rates",
+        "d": "It secures the files against corruption"
+      },
+      "explanations": {
+        "a": "Correct. Different versions of formats (e.g., JPEG and JPEG 2000) have unique signatures, which helps in accurate recovery.",
+        "b": "Renaming files does not affect their signatures.",
+        "c": "Signatures do not impact compression rates.",
+        "d": "Signatures do not secure files against corruption."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In memory forensics, how are unique patterns constructed to identify memory-mapped files?",
+      "answers": {
+        "a": "By checking the file extensions stored in memory",
+        "b": "By analyzing the size and arrangement of operating system object structures",
+        "c": "By extracting encrypted file signatures",
+        "d": "By matching against known compression algorithms"
+      },
+      "explanations": {
+        "a": "File extensions are not reliable for identifying memory-mapped files.",
+        "b": "Correct. Unique patterns are based on the size and arrangement of OS data structure members.",
+        "c": "File signatures are usually not encrypted.",
+        "d": "Compression algorithms are unrelated to constructing memory patterns."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which file signature would you expect when recovering a RAR-compressed file from raw storage?",
+      "answers": {
+        "a": "52 61 72 21 1A 07 00",
+        "b": "75 73 74 61 72 00 30 30",
+        "c": "25 50 44 46",
+        "d": "FF D8 FF E0"
+      },
+      "explanations": {
+        "a": "Correct. RAR files use the signature 52 61 72 21 1A 07 00.",
+        "b": "This is the signature for TAR files.",
+        "c": "This is the signature for PDF files.",
+        "d": "This is the signature for JPEG files."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Why is relying solely on file extensions insufficient when analyzing unknown files?",
+      "answers": {
+        "a": "Extensions can be easily altered and may not match the file's true format",
+        "b": "Extensions always match the file signature",
+        "c": "Extensions are encrypted and hidden",
+        "d": "Extensions determine the compression algorithm"
+      },
+      "explanations": {
+        "a": "Correct. Malicious actors often change file extensions to mislead analysts.",
+        "b": "Extensions do not always match the actual file format.",
+        "c": "Extensions are not encrypted.",
+        "d": "Extensions have no role in compression algorithms."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "When recovering files from corrupted storage, why is it essential to analyze both headers and footers?",
+      "answers": {
+        "a": "Because headers alone are sufficient for all file types",
+        "b": "Because some file formats require matching start and end markers for accurate recovery",
+        "c": "Because footers store filenames",
+        "d": "Because footers always contain the compression algorithm"
+      },
+      
+      "explanations": {
+        "a": "Headers are not always sufficient for complete recovery.",
+        "b": "Correct. Some file types use both header and footer markers to ensure data integrity.",
+        "c": "Footers typically don't store filenames.",
+        "d": "Compression information is unrelated to file footers."
+      },
+      "correctAnswer": "b",
       "difficulty": "advanced"
     }
   ]
