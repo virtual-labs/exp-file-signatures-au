@@ -1,5 +1,4 @@
 
-
 The aim of this experiment is to introduce file signatures and demonstrate their use in file carving—the process of extracting files from various sources, such as disk images, network traffic dumps, or corrupted storage mediums. This experiment teaches how to use file signatures to identify, recover, and reconstruct files.
 
 

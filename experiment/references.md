@@ -1,6 +1,5 @@
 
 
-
 - [File Signatures - Gary Kessler](https://www.garykessler.net/library/file_sigs.html)  
 - [List of File Signatures - Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)  
 - [File Carving Techniques - Forensics Wiki](https://forensics.wiki/file_carving/)  
