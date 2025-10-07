@@ -1,4 +1,4 @@
-### Procedure
+
 
 A file signature, also known as a magic number, is a unique sequence of bytes at the beginning of a file that identifies the file type. It helps operating systems and applications determine how to handle and process the file. File signatures are crucial in digital forensics for recognizing and categorizing files accurately, even if their extensions have been altered.
 

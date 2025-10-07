@@ -1,4 +1,4 @@
-<h3>Thoery</h3>
+
 <p>File signatures are also referred to as file headers or magic headers.</p> <p>Most of the files we encounter on our computers have unique file signatures. These signatures are sequences of bytes located at the beginning of a file, known as the header, and they are important in identifying a file type.</p> <p>For instance, when we access a ZIP file using any archive application (like WinRAR or WinZip), it first checks for the presence of the signature (in hex: 0x50 0x4B 0x03 0x04) along with the file extension <code>.zip</code>. Below is a screenshot of a hex viewer application displaying the contents of a ZIP file, starting from the very beginning. As shown, the file begins with the ZIP file header in hexadecimal: <code>50 4B 03 04</code>, which is always located at the start of a valid ZIP file.</p>
 
 ![Header Corruption](./images/zip%20file%20header.png)
