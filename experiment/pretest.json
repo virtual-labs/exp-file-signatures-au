@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following file types is commonly identified by its file signature?",
+      "question": "Which of the following file types is not commonly identified by its file signature?",
       "answers": {
         "a": ".txt",
         "b": ".jpg",
