@@ -27,12 +27,12 @@
         "d": ".exe"
       },
       "explanations": {
-        "a": "Text files do not have a specific file signature.",
-        "b": "JPG files are identified by their distinct file signature.",
-        "c": "MP3 files have a different signature but are not the most common example.",
-        "d": "Executable files also have a signature, but JPG is more commonly discussed in introductory contexts."
-      },
-      "correctAnswer": "b",
+  "a": "Text files do not have a specific file signature and can start with any characters.",
+  "b": "JPG files are identified by their distinct file signature (FF D8 FF).",
+  "c": "MP3 files also have a recognizable signature like FF FB or 49 44 33.",
+  "d": "Executable files have a clear signature (4D 5A)."
+},
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
